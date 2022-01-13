@@ -7,7 +7,7 @@
 //
 import SwiftUI
 
-@available(iOS 13.0, *)
+@available(watchOS 6.0, *)
 public struct TrackableScrollView<Content>: View where Content: View {
     let axes: Axis.Set
     let showIndicators: Bool
